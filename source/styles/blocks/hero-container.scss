@@ -1,0 +1,9 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px;
+  background-image: url("../images/hero-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}

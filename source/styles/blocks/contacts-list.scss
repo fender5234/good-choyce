@@ -1,0 +1,18 @@
+.contacts-list {
+  margin: 0 0 45px;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-list__item {
+  margin-bottom: 6px;
+}
+
+.contacts-list__link {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "PFDinDisplayPro-Medium", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+}

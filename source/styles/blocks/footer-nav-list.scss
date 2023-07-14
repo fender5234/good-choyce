@@ -1,0 +1,17 @@
+.footer-nav-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-nav-list__item {
+	margin-bottom: 14px;
+}
+
+.footer-nav-list__link {
+	padding: 10px;
+	text-decoration: none;
+	color: #ffffff;
+}

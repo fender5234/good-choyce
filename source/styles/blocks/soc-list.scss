@@ -1,0 +1,33 @@
+.soc-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.soc-list__link {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-color: #F1F1F2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+  border-radius: 10px;
+
+  &--vk {
+    background-image: url("../images/sprite.svg#vk");
+  }
+
+  &--wtsp {
+    background-image: url("../images/sprite.svg#whatsapp");
+  }
+
+  &--tg {
+    background-image: url("../images/sprite.svg#telegram");
+  }
+}
+
+.soc-list__item:not(:last-child) {
+  margin-right: 4px;
+}

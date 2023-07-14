@@ -1,0 +1,14 @@
+.about-list-wrapper {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: -10px;
+    width: 107%;
+    height: 90%;
+    background-color: #cd141c;
+    border-radius: 30px;
+  }
+}

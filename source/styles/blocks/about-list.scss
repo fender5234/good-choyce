@@ -1,0 +1,35 @@
+.about-list {
+	position: relative;
+  z-index: 1;
+	max-width: 300px;
+	min-height: 570px;
+	margin: 0;
+	padding: 24px;
+	list-style: none;
+	background-color: #ed1c24;
+	border-radius: 30px;
+
+	&::after {
+		content: "";
+		position: absolute;
+		right: 0;
+		bottom: 0;
+    z-index: -1;
+		width: 287px;
+		height: 570px;
+		background-image: url("../images/about-list-icon.svg");
+    background-repeat: no-repeat;
+	}
+}
+
+.about-list__link {
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: normal;
+	font-family: "PFDinDisplayPro-Medium", sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+}
