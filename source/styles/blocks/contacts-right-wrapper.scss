@@ -1,7 +1,8 @@
 .contacts-right-wrapper {
-	width: 752px;
+	max-width: 752px;
 	height: 333px;
-	background-image: url("../images/map.jpg");
-	background-repeat: no-repeat;
-	border-radius: 30px;
+}
+
+iframe {
+	border: none;
 }
