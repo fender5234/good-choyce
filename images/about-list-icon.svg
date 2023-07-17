@@ -1,47 +1,30 @@
 <svg width="300" height="570" viewBox="0 0 300 570" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<mask id="mask0_59_356" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="300"
-		height="570">
-		<rect width="300" height="570" rx="30" fill="#ED1C24" />
-	</mask>
-	<g mask="url(#mask0_59_356)">
-		<line x1="117.38" y1="245.129" x2="-35.5169" y2="815.75" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="352.342" y1="308.087" x2="199.445" y2="878.708" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="150.946" y1="254.124" x2="-1.95099" y2="824.744" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="385.908" y1="317.081" x2="233.01" y2="887.702" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="184.512" y1="263.117" x2="31.6149" y2="833.738" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="419.474" y1="326.075" x2="266.576" y2="896.696" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="218.078" y1="272.111" x2="65.1808" y2="842.732" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="453.04" y1="335.069" x2="300.142" y2="905.69" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="251.644" y1="281.105" x2="98.7468" y2="851.726" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="285.21" y1="290.099" x2="132.313" y2="860.72" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="318.776" y1="299.093" x2="165.879" y2="869.714" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="517.149" y1="496.668" x2="80.7924" y2="379.747" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="508.155" y1="530.234" x2="71.7983" y2="413.313" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="499.161" y1="563.8" x2="62.8042" y2="446.879" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="490.167" y1="597.366" x2="53.8105" y2="480.445" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="553.125" y1="362.405" x2="116.768" y2="245.483" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="481.173" y1="630.932" x2="44.8164" y2="514.01" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="544.131" y1="395.97" x2="107.774" y2="279.049" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="472.18" y1="664.498" x2="35.8227" y2="547.576" stroke="#CD141C" stroke-dasharray="4 4" />
-		<line x1="535.137" y1="429.536" x2="98.7802" y2="312.615" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<line x1="526.143" y1="463.102" x2="89.7861" y2="346.181" stroke="#CD141C"
-			stroke-dasharray="4 4" />
-		<path fill-rule="evenodd" clip-rule="evenodd"
-			d="M387.269 658.529H126.724V467.291H387.269V658.529ZM291.046 587.898H222.954V521.829H291.046V587.898Z"
-			fill="#CD151C" />
-		<path fill-rule="evenodd" clip-rule="evenodd"
-			d="M420 467.297V446.643L257.024 327L94 446.643V467.297H420Z" fill="#CD151C" />
-	</g>
+<mask id="mask0_59_356" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="570">
+<rect width="300" height="570" rx="30" fill="#ED1C24"/>
+</mask>
+<g mask="url(#mask0_59_356)">
+<line x1="117.38" y1="245.129" x2="-35.5169" y2="815.75" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="352.342" y1="308.087" x2="199.445" y2="878.708" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="150.946" y1="254.124" x2="-1.95099" y2="824.744" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="385.908" y1="317.081" x2="233.01" y2="887.702" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="184.512" y1="263.117" x2="31.6149" y2="833.738" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="419.474" y1="326.075" x2="266.576" y2="896.696" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="218.078" y1="272.111" x2="65.1808" y2="842.732" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="453.04" y1="335.069" x2="300.142" y2="905.69" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="251.644" y1="281.105" x2="98.7468" y2="851.726" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="285.21" y1="290.099" x2="132.313" y2="860.72" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="318.776" y1="299.093" x2="165.879" y2="869.714" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="517.149" y1="496.668" x2="80.7924" y2="379.747" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="508.155" y1="530.234" x2="71.7983" y2="413.313" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="499.161" y1="563.8" x2="62.8042" y2="446.879" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="490.167" y1="597.366" x2="53.8105" y2="480.445" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="553.125" y1="362.405" x2="116.768" y2="245.483" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="481.173" y1="630.932" x2="44.8164" y2="514.01" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="544.131" y1="395.97" x2="107.774" y2="279.049" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="472.18" y1="664.498" x2="35.8227" y2="547.576" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="535.137" y1="429.536" x2="98.7802" y2="312.615" stroke="#CD141C" stroke-dasharray="4 4"/>
+<line x1="526.143" y1="463.102" x2="89.7861" y2="346.181" stroke="#CD141C" stroke-dasharray="4 4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M387.269 658.529H126.724V467.291H387.269V658.529ZM291.046 587.898H222.954V521.829H291.046V587.898Z" fill="#CD151C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M420 467.297V446.643L257.024 327L94 446.643V467.297H420Z" fill="#CD151C"/>
+</g>
 </svg>
