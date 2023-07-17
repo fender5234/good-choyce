@@ -33,6 +33,7 @@ video {
 }
 
 .container {
+	box-sizing: border-box;
 	max-width: 1280px;
 	margin-right: auto;
 	margin-left: auto;

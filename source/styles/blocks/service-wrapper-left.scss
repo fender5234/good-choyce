@@ -1,0 +1,44 @@
+.service-wrapper-left {
+	position: relative;
+	display: flex;
+	flex-shrink: 0;
+	flex-basis: 752px;
+	flex-direction: column;
+	min-height: 497px;
+	padding: 40px;
+	background-image: url("../images/service-1.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 30px;
+
+	&--two {
+		background-image: url("../images/service-2.webp");
+	}
+
+	&--tree {
+		background-image: url("../images/service-3.webp");
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+		border-radius: 30px;
+	}
+}
+
+.service-wrapper-left p {
+	z-index: 2;
+	max-width: 400px;
+	margin: auto 0 0;
+	padding: 0;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: normal;
+	font-family: "PFDinDisplayPro-Medium",sans-serif;
+	color:	#fafafa;
+}
