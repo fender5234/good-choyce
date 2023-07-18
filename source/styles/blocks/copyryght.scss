@@ -1,5 +1,17 @@
 .copyryght {
+  position: relative;
   margin-right: 30px;
+  padding-left: 15px;
   font-size: 14px;
 	color: #5e6985;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-image: url("../images/sprite.svg#cr");
+  }
 }

@@ -1,0 +1,32 @@
+.accordeon-list {
+  display: none;
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+
+  &--active {
+    display: block;
+  }
+}
+
+.accordeon-list__item {
+  position: relative;
+  margin: 0 0 10px;
+  padding-left: 20px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 2px;
+    width: 6px;
+    height: 6px;
+    background-color: #ed1c24;
+    border-radius: 50%;
+  }
+}
+
+.accordeon-list-link {
+  font-size: 18px;
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.accordeon-button {
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	box-sizing: border-box;
+	width: 18px;
+	height: 10px;
+	padding: 20px;
+ background-color: transparent;
+ background-image: url("../images/sprite.svg#drop");
+ background-repeat: no-repeat;
+ background-position: center;
+	background-size: 20px 20px;
+	border: none;
+ cursor: pointer;
+}

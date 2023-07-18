@@ -3,7 +3,7 @@
 		{
 			"files": "*.md",
 			"options": {
-				"useTabs": false
+				"useTabs": true
 			}
 		},
 		{

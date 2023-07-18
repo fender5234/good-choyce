@@ -5,24 +5,23 @@
 	list-style: none;
 }
 
+.service-list-item {
+	position: relative;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 30px;
+}
+
 .service-list-link {
 	position: relative;
 	display: block;
+	max-width: 300px;
 	padding: 20px;
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 100%;
-	font-family: "PFDinDisplayPro-Medium",sans-serif;
+	font-family: "PFDinDisplayPro-Medium", sans-serif;
 	text-decoration: none;
 	color: #171e30;
-
-	&::after {
-		content: "";
-		position: absolute;
-		top: 25px;
-		right: 0;
-		width: 18px;
-		height: 10px;
-		background-image: url("../images/sprite.svg#drop");
-	}
 }
