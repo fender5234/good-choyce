@@ -1,4 +1,10 @@
 .footer-logo-link {
 	display: block;
 	margin-bottom: 32px;
+
+	@include media-mobile {
+		display: block;
+		align-items: center;
+		margin: 0 auto 10px;
+	}
 }

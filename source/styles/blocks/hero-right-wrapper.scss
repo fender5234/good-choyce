@@ -1,0 +1,5 @@
+.hero-right-wrapper {
+	@include media-mobile {
+	display: none;
+	}
+}

@@ -1,0 +1,16 @@
+.menu-button {
+	display: none;
+	width: 48px;
+	height: 48px;
+	background-color: #f1f1f2;
+	background-image: url("../images/sprite.svg#burger");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px 30px;
+	border: none;
+	border-radius: 10px;
+
+	@include media-mobile {
+		display: block;
+	}
+}

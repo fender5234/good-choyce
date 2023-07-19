@@ -1,9 +1,17 @@
 .footer-content {
-  &--center {
-    justify-self: center;
-  }
+	&--center {
+		justify-self: center;
+    order: 1;
+	}
 
-  &--end {
-    justify-self: end;
+	&--end {
+		justify-self: end;
+    order: 2;
+	}
+
+  &--start {
+    display: flex;
+    flex-direction: column;
+    order: 3;
   }
 }

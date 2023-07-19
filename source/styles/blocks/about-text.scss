@@ -3,4 +3,8 @@
 	font-size: 16px;
 	line-height: 150%;
 	color: #c9c9dB;
+
+	@include media-mobile {
+		display: none;
+	}
 }

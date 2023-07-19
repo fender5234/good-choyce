@@ -1,5 +1,10 @@
 .aside-content {
 	padding: 10px;
+
+	@include media-mobile {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .aside-content p {

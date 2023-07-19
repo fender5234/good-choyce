@@ -1,4 +1,8 @@
 .contacts-content-wrapper {
 	display: flex;
 	justify-content: space-between;
+
+	@include media-mobile {
+		flex-direction: column;
+	}
 }

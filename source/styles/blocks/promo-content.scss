@@ -2,6 +2,10 @@
 	position: absolute;
 	right: 0;
 	bottom: 0;
+
+	@include media-mobile {
+		display: none;
+	}
 }
 
 .promo-content__wrapper {
@@ -43,7 +47,7 @@
 	font-weight: 500;
 	font-size: 32px;
 	line-height: normal;
-	font-family: "PFDinDisplayPro-Medium",sans-serif;
+	font-family: "PFDinDisplayPro-Medium", sans-serif;
 	color: #fafafa;
 }
 
@@ -52,6 +56,6 @@
 	font-weight: 500;
 	font-size: 20px;
 	line-height: normal;
-	font-family: "PFDinDisplayPro-Medium",sans-serif;
+	font-family: "PFDinDisplayPro-Medium", sans-serif;
 	color: #fafafa;
 }

@@ -6,22 +6,8 @@
 	line-height: 100%;
 	font-family: "PFDinDisplayPro-Medium", sans-serif;
 	color: #fafafa;
-}
 
-.hero-list__link {
-  position: relative;
-  padding: 5px 10px 5px 16px;
-  text-decoration: none;
-	color: #fafafa;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 13px;
-    left: 0;
-    width: 6px;
-    height: 6px;
-    background-color: #ed1c24;
-    border-radius: 50%;
+  @include media-mobile {
+    font-size: 30px;
   }
 }

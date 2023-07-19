@@ -34,7 +34,7 @@
 						<a href="no-here" class="nav-list__link">Контакты</a>
 					</li>
 				</ul>
-				<ul class="soc-list">
+				<ul class="soc-list soc-list--header">
 					<li class="soc-list__item">
 						<a href="no-here" class="soc-list__link soc-list__link--vk" aria-label="Мы во В контакте"></a>
 					</li>
@@ -45,13 +45,16 @@
 						<a href="no-here" class="soc-list__link soc-list__link--tg" aria-label="Мы в Telegram"></a>
 					</li>
 				</ul>
-				<a href="tel:+79113090000" class="tel-link" aria-label="Номер телефона для связи с нами">+7 (911) 309-00-00</a>
+				<a href="tel:+79113090000" class="tel-link" aria-label="Номер телефона для связи с нами">
+					<span class="tel-link__span">+7 (911) 309-00-00</span>
+				</a>
+				<button type="button" aria-label="Показать меню" class="menu-button"></button>
 			</div>
 		</header>
 		{% block main %}{% endblock %}
 		<footer class="footer">
 			<div class="container footer-container">
-				<div class="footer-content">
+				<div class="footer-content footer-content--start">
 					<a href="./index.html" class="logo-link footer-logo-link">
 						<img src="./images/logo-footer.svg" alt="Логотип компании Хороший вариант" class="logo-link-image footer-logo-link-image" width="151" height="60">
 					</a>

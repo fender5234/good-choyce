@@ -1,4 +1,11 @@
 .hero-left-wrapper {
   max-width: 50%;
   padding-top: 155px;
+
+  @include media-mobile {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    padding: 100px 0 30px;
+  }
 }

@@ -26,8 +26,19 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
 		border-radius: 30px;
+		
+		@include media-mobile {
+			border-radius: 0;
+		}
+	}
+
+	@include media-mobile {
+		flex-basis: auto;
+		min-height: 300px;
+		padding: 20px 10px;
+		border-radius: 0;
 	}
 }
 
@@ -39,6 +50,6 @@
 	font-weight: 500;
 	font-size: 24px;
 	line-height: normal;
-	font-family: "PFDinDisplayPro-Medium",sans-serif;
-	color:	#fafafa;
+	font-family: "PFDinDisplayPro-Medium", sans-serif;
+	color: #fafafa;
 }

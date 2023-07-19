@@ -2,4 +2,36 @@
   margin: 0 0 56px;
   padding: 0;
   list-style: none;
+
+  @include media-mobile {
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+}
+
+.hero-list__link {
+  position: relative;
+  padding: 5px 10px 5px 16px;
+  text-decoration: none;
+	color: #fafafa;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background-color: #ed1c24;
+    border-radius: 50%;
+
+    @include media-mobile {
+      top: 17px;
+      left: -11px;
+    }
+  }
+
+  @include media-mobile {
+    padding: 10px 0;
+  }
 }

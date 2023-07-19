@@ -3,6 +3,11 @@
 	margin: 0;
 	padding: 0 0 0 30px;
 	list-style: none;
+
+	@include media-mobile {
+		width: auto;
+		padding: 20px 10px;
+	}
 }
 
 .service-list-item {
@@ -24,4 +29,9 @@
 	font-family: "PFDinDisplayPro-Medium", sans-serif;
 	text-decoration: none;
 	color: #171e30;
+
+	@include media-mobile {
+		padding: 20px 50px 20px 20px;
+		font-size: 20px;
+	}
 }

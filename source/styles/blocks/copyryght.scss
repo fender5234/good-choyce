@@ -14,4 +14,8 @@
     height: 10px;
     background-image: url("../images/sprite.svg#cr");
   }
+
+  @include media-mobile {
+    margin: 0 auto;
+	}
 }

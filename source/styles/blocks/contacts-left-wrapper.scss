@@ -1,5 +1,9 @@
 .contacts-left-wrapper {
-width: 40%;
+	width: 40%;
+
+	@include media-mobile {
+  order: 2;
+  width: 100%;
+  padding: 10px;
+	}
 }
-
-

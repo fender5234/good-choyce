@@ -16,7 +16,7 @@ const showAccordeonList = () => {
 						button.nextElementSibling.classList.add('accordeon-list--active');
 					}
 				}
-				if (event.target.nodeName === 'MAIN' || event.target.nodeName === 'DIV') {
+				if (!event.target.closest('LI')) {
 					accList.forEach((list) => {
 						list.classList.remove('accordeon-list--active');
 					});

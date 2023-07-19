@@ -12,6 +12,14 @@
 		width: 546px;
 		height: 683px;
 		background-image: url("../images/woman-background.webp");
+
+		@include media-mobile {
+			content: none;
+		}
+	}
+
+	@include media-mobile {
+		padding: 20px;
 	}
 }
 
@@ -22,6 +30,10 @@
 	line-height: normal;
 	font-family: "PFDinDisplayPro-Medium", sans-serif;
 	color: #171e30;
+
+	@include media-mobile {
+		font-size: 20px;
+	}
 }
 
 .form__span {
@@ -43,6 +55,11 @@
 	background-color: #eaeaed;
 	border: none;
 	border-radius: 10px;
+
+	@include media-mobile {
+		box-sizing: border-box;
+		min-width: auto;
+	}
 }
 
 .form__text-area {
@@ -71,6 +88,12 @@
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
+
+	@include media-mobile {
+		display: block;
+		min-width: 90%;
+		margin: 0 auto;
+	}
 }
 
 .form__label {
@@ -79,6 +102,10 @@
 
 	&--text {
 		width: 100%;
+	}
+
+	@include media-mobile {
+		margin-bottom: 25px;
 	}
 }
 
@@ -91,4 +118,9 @@
 	vertical-align: sub;
 	max-width: 300px;
 	font-size: 14px;
+
+	@include media-mobile {
+		margin-top: 10px;
+		text-align: center;
+	}
 }

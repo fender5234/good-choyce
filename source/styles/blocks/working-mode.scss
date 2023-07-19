@@ -5,4 +5,9 @@
   font-family: "PFDinDisplayPro-Medium", sans-serif;
   text-decoration: none;
   color: #171e30;
+
+  @include media-mobile {
+		margin: 30 0 0;
+    text-align: center;
+	}
 }

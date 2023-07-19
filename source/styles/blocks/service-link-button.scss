@@ -7,9 +7,15 @@
 	font-weight: 500;
 	font-size: 18px;
 	line-height: normal;
-	font-family: "PFDinDisplayPro-Medium",sans-serif;
+	font-family: "PFDinDisplayPro-Medium", sans-serif;
 	text-decoration: none;
 	color: #fafafa;
 	background-color: #ed1c24;
 	border-radius: 10px;
+
+	@include media-mobile {
+		min-width: 60%;
+		margin: 30px auto 0;
+		text-align: center;
+	}
 }

@@ -1,4 +1,8 @@
 .form-container {
 	position: relative;
 	padding: 100px 0 50px;
+
+	@include media-mobile {
+		padding: 30px 10px 0;
+	}
 }

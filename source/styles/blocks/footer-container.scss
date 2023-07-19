@@ -3,4 +3,10 @@
   grid-template-columns: 1fr max-content 1fr;
 	grid-gap: 0 10px;
   padding: 60px 100px;
+
+  @include media-mobile {
+		display: flex;
+    flex-direction: column;
+    padding: 20px 10px 40px;
+	}
 }
