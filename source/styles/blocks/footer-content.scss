@@ -1,17 +1,26 @@
 .footer-content {
 	&--center {
 		justify-self: center;
-    order: 1;
+
+    @include media-mobile {
+			order: 1;
+		}
 	}
 
 	&--end {
 		justify-self: end;
-    order: 2;
+
+		@include media-mobile {
+			order: 2;
+		}
 	}
 
-  &--start {
-    display: flex;
-    flex-direction: column;
-    order: 3;
-  }
+	&--start {
+		display: flex;
+		flex-direction: column;
+
+    @include media-mobile {
+			order: 3;
+		}
+	}
 }
