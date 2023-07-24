@@ -1,8 +1,8 @@
 .about-text {
-	margin: 0 5% 0 auto;
+	margin: 0;
 	font-size: 16px;
 	line-height: 150%;
-	color: #c9c9dB;
+	color: #c9c9db;
 
 	@include media-mobile {
 		display: none;
